@@ -1,3 +1,8 @@
+
+Avatars views
+
+![image](https://github.com/user-attachments/assets/19871c9e-dc6d-4c95-b897-7c498aa4c1bf)
+
 Counter view
 
 ![image](https://github.com/user-attachments/assets/1562a278-c403-49e2-8868-1916a885b61d)
