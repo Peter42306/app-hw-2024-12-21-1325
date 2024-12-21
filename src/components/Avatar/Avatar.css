@@ -1,0 +1,44 @@
+.avatar__container {
+    text-align: center;
+    width: 300px;
+    height: 350px;
+    margin: 10px;
+    border: 1px solid yellow;
+    padding: 10px;
+  }
+  
+  .avatar__header {
+    padding: 5px;
+    border-bottom: 1px solid #000;
+  }
+  
+  .avatar__image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;    
+    /* width: 100px; */
+  }
+  
+  .avatar__main {
+    padding-bottom: 4px;
+  }
+  
+  .avatar__footer {
+    border-top: 1px solid #000;
+  }
+
+  .avatar__footer p {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+
+  .avatar-main-body{
+    display: flex;
+  }
+
+  @media (max-width: 768px) {
+    .avatar-main-body{
+      flex-direction: column;      
+    }
+  }
