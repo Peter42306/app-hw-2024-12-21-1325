@@ -1,3 +1,4 @@
+Counter view
 ![image](https://github.com/user-attachments/assets/1562a278-c403-49e2-8868-1916a885b61d)
 
 # Getting Started with Create React App
