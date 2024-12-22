@@ -156,11 +156,13 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div className='city-containers'>
+
+        {/* Test of commit from another device */}      
+        {/* <div className='city-containers'>
         <ImagesCarousel cityInfo={odessaCityInfo}></ImagesCarousel>
         <ImagesCarousel cityInfo={malagaCityInfo}></ImagesCarousel>
         <ImagesCarousel cityInfo={cadizCityInfo}></ImagesCarousel>
-        </div>
+        </div> */}
         
 
         {/* <Slideshow></Slideshow> */}
