@@ -1,3 +1,6 @@
+Images Carousel, cities, views
+
+![image](https://github.com/user-attachments/assets/3b5b2503-e9d4-4695-8526-4bb3f639060b)
 
 Avatars views
 
