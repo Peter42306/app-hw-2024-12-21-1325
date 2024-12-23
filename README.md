@@ -1,3 +1,9 @@
+Input form, class component, array
+
+![image](https://github.com/user-attachments/assets/8e4185fc-3378-4c72-a092-6c8108fed717)
+
+![image](https://github.com/user-attachments/assets/9b36e711-ec0c-44e6-96b8-b0fb3c3353ed)
+
 Input form, class component + state
 
 ![image](https://github.com/user-attachments/assets/e072af33-3a08-43d2-b119-bb701cded0d8)
