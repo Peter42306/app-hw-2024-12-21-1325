@@ -1,4 +1,10 @@
 
+Input form + button + text area + time sent
+
+![image](https://github.com/user-attachments/assets/5d5b2798-4a8e-4ac1-9ca1-81458e46ccf7)
+
+![image](https://github.com/user-attachments/assets/7765aa76-4cbe-4cd9-b6e9-a3bce1e72363)
+
 Input form + button + 3 outputs
 
 ![image](https://github.com/user-attachments/assets/f845415f-86f3-471f-972c-11a95b25d38f)![image](https://github.com/user-attachments/assets/d9904bb5-06fe-4077-9611-c377bf8a1fcb)
