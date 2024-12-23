@@ -1,4 +1,7 @@
 
+Input form + button + 3 outputs
+
+![image](https://github.com/user-attachments/assets/f845415f-86f3-471f-972c-11a95b25d38f)![image](https://github.com/user-attachments/assets/d9904bb5-06fe-4077-9611-c377bf8a1fcb)
 
 Input form + button
 
