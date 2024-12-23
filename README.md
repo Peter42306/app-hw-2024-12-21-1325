@@ -1,3 +1,29 @@
+Input form, class component, array
+
+![image](https://github.com/user-attachments/assets/8e4185fc-3378-4c72-a092-6c8108fed717)
+
+![image](https://github.com/user-attachments/assets/9b36e711-ec0c-44e6-96b8-b0fb3c3353ed)
+
+Input form, class component + state
+
+![image](https://github.com/user-attachments/assets/e072af33-3a08-43d2-b119-bb701cded0d8)
+
+![image](https://github.com/user-attachments/assets/f65f54f0-ce9c-4e03-b716-b3fd70965be7)
+
+Input form + button + text area + time sent
+
+![image](https://github.com/user-attachments/assets/5d5b2798-4a8e-4ac1-9ca1-81458e46ccf7)
+
+![image](https://github.com/user-attachments/assets/7765aa76-4cbe-4cd9-b6e9-a3bce1e72363)
+
+Input form + button + 3 outputs
+
+![image](https://github.com/user-attachments/assets/f845415f-86f3-471f-972c-11a95b25d38f)![image](https://github.com/user-attachments/assets/d9904bb5-06fe-4077-9611-c377bf8a1fcb)
+
+Input form + button
+
+![image](https://github.com/user-attachments/assets/a2b96b82-0697-437f-8d31-440ef8ab1a69)
+
 Images Carousel, cities, views
 
 ![image](https://github.com/user-attachments/assets/3b5b2503-e9d4-4695-8526-4bb3f639060b)
