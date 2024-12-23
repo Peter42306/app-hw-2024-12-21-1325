@@ -1,3 +1,8 @@
+Input form, class component + state
+
+![image](https://github.com/user-attachments/assets/e072af33-3a08-43d2-b119-bb701cded0d8)
+
+![image](https://github.com/user-attachments/assets/f65f54f0-ce9c-4e03-b716-b3fd70965be7)
 
 Input form + button + text area + time sent
 
