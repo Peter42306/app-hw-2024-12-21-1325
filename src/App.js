@@ -1,3 +1,4 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Counter from './components/Counter/Counter';
@@ -64,6 +65,12 @@ import cadizImage21 from './images/cadiz_photo_2024-12-22_11-26-52.jpg';
 import cadizImage22 from './images/cadiz_photo_2024-12-22_11-26-53.jpg';
 import cadizImage23 from './images/cadiz_photo_2024-12-22_11-20-31.jpg';
 import ImagesCarousel from './components/ImagesCarousel/ImagesCarousel';
+import HelloMessage from './components/HelloMessage/HelloMessage';
+import Form1 from './components/Form1/Form1';
+import Form2 from './components/Form2/Form2';
+import Form3 from './components/Form3/Form3';
+import Form4 from './components/Form4/Form4';
+import Form5 from './components/Form5/Form5';
 
 function App() {
   const odessaCityInfo = {
@@ -156,14 +163,19 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        
+        <Form5></Form5>
+        {/* <Form4></Form4> */}
+        {/* <Form3></Form3> */}
+        {/* <Form2></Form2> */}
+        {/* <Form1></Form1> */}
 
-        {/* Test of commit from another device */}      
+        {/* Test of commit from another device       */}
         {/* <div className='city-containers'>
         <ImagesCarousel cityInfo={odessaCityInfo}></ImagesCarousel>
         <ImagesCarousel cityInfo={malagaCityInfo}></ImagesCarousel>
         <ImagesCarousel cityInfo={cadizCityInfo}></ImagesCarousel>
-        </div> */}
-        
+        </div>         */}
 
         {/* <Slideshow></Slideshow> */}
 

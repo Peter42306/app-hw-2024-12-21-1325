@@ -1,0 +1,118 @@
+/* Контейнер для всего компонента */
+.form4-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
+    padding: 20px;    
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Сообщение после отправки */
+  .form4-submitted-message {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    text-align: left;
+  }
+  
+  /* Заголовок сообщения (имя и время) */
+  .form4-submitted-message-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  /* Имя отправителя */
+  .form4-submitted-text-sender-name {
+    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  }
+  
+  /* Время отправки */
+  .form4-submitted-text-time {    
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  /* Текст сообщения */
+  .form4-submitted-text {
+    font-size: 16px;
+    color: black;    
+  }
+  
+  /* Разделитель */
+  hr {    
+    height: 2px; 
+    background-color: black; 
+  }
+  
+  /* Контейнер для новой формы */
+  .form4-new-text {
+    width: 100%; 
+    margin-bottom: 20px;
+  }
+  
+  /* Надпись перед формой */
+  .form4-new-text span {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Группа для полей ввода */
+  .form4-input-group {
+    display: flex;
+    margin-bottom: 15px;    
+  }
+  
+  /* Метки для полей */
+  .form4-input-group label {    
+    font-size: 16px;
+    margin-bottom: 5px;
+    white-space: nowrap;
+    margin: 5px;
+  }
+  
+  /* Поля ввода */
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Кнопка отправки */
+  .form4-submit-button {
+    width: 100%; 
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .form4-submit-button:hover {
+    background-color: #0056b3;
+  }  
+
+  /* Медиа-запрос для телефонов */
+    @media (max-width: 768px) {
+    .form4-input-group {
+      flex-direction: column; 
+      align-items: flex-start; 
+    }
+  
+    .form4-input-group input {
+      width: 100%; 
+    }
+}
+  
