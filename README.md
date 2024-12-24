@@ -1,3 +1,9 @@
+Input form, class component, word counter in array,  letters counter in each word (component Form6)
+
+![image](https://github.com/user-attachments/assets/169ef410-4893-44a0-893a-c4e372c74077)
+
+![image](https://github.com/user-attachments/assets/6af8ebd6-4a5a-4621-a7cd-b16d6e209e59)
+
 Input form, class component, array
 
 ![image](https://github.com/user-attachments/assets/8e4185fc-3378-4c72-a092-6c8108fed717)
