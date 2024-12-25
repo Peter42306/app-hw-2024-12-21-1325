@@ -1,3 +1,13 @@
+Input form, class component, test how many letters in the input text (component Form7)
+
+![image](https://github.com/user-attachments/assets/370494a9-1c92-4b2b-b8f4-3109bc480b8f)
+
+![image](https://github.com/user-attachments/assets/c7707d84-31ed-468c-a5ce-93c42d5206b3)
+
+![image](https://github.com/user-attachments/assets/d60ace2d-e610-48bf-844e-5fd63ced92d0)
+
+![image](https://github.com/user-attachments/assets/f4a6342d-b96c-47ff-8647-45910c479b08)
+
 Input form, class component, word counter in array,  letters counter in each word (component Form6)
 
 ![image](https://github.com/user-attachments/assets/169ef410-4893-44a0-893a-c4e372c74077)
