@@ -72,6 +72,7 @@ import Form3 from './components/Form3/Form3';
 import Form4 from './components/Form4/Form4';
 import Form5 from './components/Form5/Form5';
 import Form6 from './components/Form6/Form6';
+import Form7 from './components/Form7/Form7';
 
 function App() {
   const odessaCityInfo = {
@@ -164,7 +165,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Form6></Form6>
+        <Form7></Form7>
+        {/* <Form6></Form6> */}
         {/* <Form5></Form5> */}
         {/* <Form4></Form4> */}
         {/* <Form3></Form3> */}

@@ -1,1 +1,21 @@
-.Form7 {}
+.word-question-radio{
+    /* display: flex; */
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.confirmed-button {
+    background-color: rebeccapurple;
+    color: white;
+    cursor: not-allowed;
+  }
+
+  .not-confirmed-button {
+    background-color: red;
+    color: white;
+    cursor: not-allowed;
+  }
+
+  .confirmed {
+    background-color: grey;
+  }
