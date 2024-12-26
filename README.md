@@ -1,3 +1,7 @@
+Formatting of input text (component Form8)
+
+![image](https://github.com/user-attachments/assets/d4f9a9ea-1e16-465b-ba61-c7ffffbaca8c)
+
 Input form, class component, test how many letters in the input text (component Form7)
 
 ![image](https://github.com/user-attachments/assets/370494a9-1c92-4b2b-b8f4-3109bc480b8f)
