@@ -1,6 +1,5 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import PropTypes from 'prop-types';
 import './ImagesCarousel.css';
 import { propTypes } from 'react-bootstrap/esm/Image';

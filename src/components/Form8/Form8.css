@@ -1,0 +1,15 @@
+
+/* Стили для жирного текста */
+
+  .submittedText{
+    font-family:'Courier New', Courier, monospace;
+    font-size: smaller;
+    border: 2px solid beige;
+    padding: 5px;
+    border-radius: 10px;
+    min-height: 100px;
+    height: auto;
+    background-color: black;
+    color: bisque;
+  }
+  

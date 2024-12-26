@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css'; // Подключаем стили Bootstrap
 import Counter from './components/Counter/Counter';
 import Avatar from './components/Avatar/Avatar';
 import userPhoto1 from '../src/images/Screenshot_2024-11-15_161150.jpg';
@@ -73,6 +74,7 @@ import Form4 from './components/Form4/Form4';
 import Form5 from './components/Form5/Form5';
 import Form6 from './components/Form6/Form6';
 import Form7 from './components/Form7/Form7';
+import Form8 from './components/Form8/Form8';
 
 function App() {
   const odessaCityInfo = {
@@ -165,7 +167,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Form7></Form7>
+        <Form8></Form8>
+        {/* <Form7></Form7> */}
         {/* <Form6></Form6> */}
         {/* <Form5></Form5> */}
         {/* <Form4></Form4> */}
