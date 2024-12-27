@@ -75,6 +75,9 @@ import Form5 from './components/Form5/Form5';
 import Form6 from './components/Form6/Form6';
 import Form7 from './components/Form7/Form7';
 import Form8 from './components/Form8/Form8';
+import CounterClass from './components/CounterClass/CounterClass';
+import Calculator from './components/Calculator/Calculator';
+
 
 function App() {
   const odessaCityInfo = {
@@ -167,7 +170,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Form8></Form8>
+        <Calculator></Calculator>
+        {/* <CounterClass></CounterClass> */}
+        {/* <Form8></Form8> */}
         {/* <Form7></Form7> */}
         {/* <Form6></Form6> */}
         {/* <Form5></Form5> */}
