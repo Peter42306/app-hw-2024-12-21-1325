@@ -1,6 +1,6 @@
 Simple calculator (component Calculator)
 
-![image](https://github.com/user-attachments/assets/0afb6ea6-2ea2-4695-88e9-baa021a16aa6)
+![image](https://github.com/user-attachments/assets/6425baaa-78cb-4dae-ab1e-1c1c7c119cfe)
 
 Formatting of input text (component Form8)
 
