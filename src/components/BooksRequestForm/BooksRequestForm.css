@@ -1,0 +1,25 @@
+.book-card-request-form {        
+    width: 22rem;
+    height:44rem;        
+    margin: 0px;
+    padding: 1px;
+    margin-bottom: 3px;          
+    background-color: beige
+  }
+
+/* .book-shop-container{
+    border: 2px solid yellow;
+} */
+
+.book-request-form-input-group-text {
+    width: 9rem;
+    text-align: right;  
+    
+  }
+
+.book-request-form-button {       
+    
+    text-align: center;
+        margin-bottom: 1px;
+}
+

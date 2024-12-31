@@ -1,0 +1,83 @@
+  
+  /* Стили для крупных экранов */
+  @media (min-width: 768px) {
+
+    .book-card {        
+        width: 18rem;
+        height:44rem;        
+        margin: 0px;
+        padding: 3px;
+        /* margin-bottom: 1px;            */
+        background-color: beige
+      }
+
+    
+    .book-card-title {
+        font-size: 1.2rem;
+        text-align: left;
+        /* display: -webkit-box;
+      -webkit-line-clamp: 5;
+      -webkit-box-orient: vertical;
+      overflow: auto; */
+      
+    }
+  
+    .book-card-description {
+      font-size: 0.9rem;
+      text-align: left;     
+      display: -webkit-box;
+      -webkit-line-clamp: 3; /* Ограничение в 3 строки */
+      -webkit-box-orient: vertical;
+      overflow: auto;      
+    }
+
+    .book-card-author {
+        font-size: 1rem;
+        text-align: left;
+        
+    }
+
+    .book-card-price {
+        font-size: 1.1rem;
+        text-align: right;
+        font-weight: bold;
+    }
+
+    .book-card-button {        
+        text-align: center;
+        margin-bottom: 1px;
+    }
+  }
+  
+  /* Стили для мобильных экранов */
+  @media (max-width: 767px) {
+
+    .book-card {  
+        width: 14rem;
+        height:40rem;        
+        margin: 0px;
+        padding: 3px;
+        margin-bottom: 5px;        
+    }
+
+    .book-card-title {
+        font-size: 1.2rem;
+        text-align: left;
+    }
+  
+    .book-card-description {
+        font-size: 1rem;
+        text-align: left;
+    }
+    .book-card-author {
+        font-size: 1rem;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    .book-card-price {
+        font-size: 1rem;
+        text-align: right;
+        font-weight: bold;
+    }
+  }

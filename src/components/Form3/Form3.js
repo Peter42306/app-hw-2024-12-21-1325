@@ -65,7 +65,7 @@ class Form3 extends Component {
 
           <div>
             <textarea 
-              readOnly value={this.state.submittedQuery} // Отображает сообщение, которое было отправлено, включая имя, текст и время
+              readOnly rows={10} value={this.state.submittedQuery} // Отображает сообщение, которое было отправлено, включая имя, текст и время
             ></textarea>
         </div>                
      
