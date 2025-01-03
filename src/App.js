@@ -8,7 +8,7 @@ import userPhoto1 from '../src/images/Screenshot_2024-11-15_161150.jpg';
 import userPhoto2 from '../src/images/Screenshot_2024-11-15_162111.jpg';
 import Slideshow from './components/Slideshow/Slideshow';
 import odessaImage1 from './images/Odessa_Screenshot 2024-12-21 230706.jpg';
-import odessaImage2 from './images/Odessa_Screenshot 2024-12-21 230731.jpg';
+import odessaImage2 from './images/Odessa_Screenshot 2024-12-21 230731.jpg'; 
 import odessaImage3 from './images/Odessa_Screenshot 2024-12-21 230732.jpg';
 import odessaImage4 from './images/Odessa_Screenshot 2024-12-21 230800.jpg';
 import odessaImage5 from './images/Odessa_Screenshot 2024-12-21 233256.jpg';
@@ -96,9 +96,13 @@ import imageBook9 from './images/books-9-Screenshot-2024-12-28-204649-Dark-Psych
 import { Col, Container, Row } from 'react-bootstrap';
 import BooksRequestForm from './components/BooksRequestForm/BooksRequestForm';
 import BookShop from './components/BookShop/BookShop';
+import Table from './components/Table/Table';
 
 
-function App() {
+function App() { 
+  
+
+  // Cities
   const odessaCityInfo = {
     mainImage: odessaImage1,
     city: 'Odessa',
@@ -257,7 +261,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <BookShop books={books}></BookShop>
+        <Table notes={notes} onAdd={handleAddNote} onDelete={handleDeleteNote}></Table>
+        {/* <BookShop books={books}></BookShop> */}
 
         {/* <Container className='w-100'>
           <Row>
@@ -278,7 +283,7 @@ function App() {
           author="Eric Holt"
           price={4.99}
         ></Book>         */}
-        
+
         {/* <ToDoList></ToDoList> */}
         {/* <Counter1></Counter1> */}
         {/* <TimerComponent1></TimerComponent1> */}
