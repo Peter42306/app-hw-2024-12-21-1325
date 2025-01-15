@@ -1,0 +1,40 @@
+.excel-table {
+    margin: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  input {
+    width: 100%;
+    padding: 4px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 4px 8px;
+    margin: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #f0f0f0;
+  }
+
+.input-area {
+    border: none;
+    outline: none;
+}
+
+.input-area:focus {
+    border: none !important;
+    outline: none !important;
+}

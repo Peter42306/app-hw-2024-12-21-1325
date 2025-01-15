@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'; // Подключаем стили Bootstrap
@@ -96,7 +96,12 @@ import imageBook9 from './images/books-9-Screenshot-2024-12-28-204649-Dark-Psych
 import { Col, Container, Row } from 'react-bootstrap';
 import BooksRequestForm from './components/BooksRequestForm/BooksRequestForm';
 import BookShop from './components/BookShop/BookShop';
-import Table from './components/Table/Table';
+import DsFwd1Apparent from './components/DsFwd1Apparent/DsFwd1Apparent';
+import DsFwd2Mean from './components/DsFwd2Mean/DsFwd2Mean';
+import TableCalculation from './components/TableCalculation/TableCalculation';
+import TableCalculationMui from './components/TableCalculationMui/TableCalculationMui';
+
+
 
 
 function App() { 
@@ -258,65 +263,103 @@ function App() {
     
   ];
 
+  //////////////////////////////////////////////////////////////
+  // Draught Survey Tests
+
+  const [fwdApparentPs, setFwdApparentPs] = useState('');
+  const [fwdApparentSs, setFwdApparentSs] = useState('');
+
+  const handleFwdApparentPs = (value) => {
+    setFwdApparentPs(value);
+  };
+  const handleFwdApparentSs = (value) => {
+    setFwdApparentSs(value);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <Table notes={notes} onAdd={handleAddNote} onDelete={handleDeleteNote}></Table>
-        {/* <BookShop books={books}></BookShop> */}
+    <Container className='mt-3'>
 
-        {/* <Container className='w-100'>
-          <Row>
-            <Col lg={9}>
-              <BooksList books={books}></BooksList>
-              
-            </Col>
-            <Col lg={3}>
-              <BooksRequestForm></BooksRequestForm>
-            </Col>
-          </Row>
-        </Container> */}
+      <DsFwd1Apparent
+        draughtDetailsPs="FWD PS"
+        draughtDetailsSs="FWD SS"
+        onReturnFwdApparentPs={handleFwdApparentPs}
+        onReturnFwdApparentSs={handleFwdApparentSs}
+      />      
+
+      <DsFwd2Mean 
+        draughtMeanPosition="FWD MEAN"
+        apparentPs={fwdApparentPs} 
+        apparentSs={fwdApparentSs}
+      />
+
+      <TableCalculation/>
+
+      <TableCalculationMui/>
+      
+
+    </Container>
+
+    
+
+    // // <div>
+      
+      
         
-        {/* <Book
-          image={imageBook1}
-          title="How To Analyze People"
-          description="Read People Like a Book with Dark Psychology Secrets, NLP Techniques, Body Language Analysis, Enhanced Emotional Intelligence, and Expert-Level Manipulation Skills"
-          author="Eric Holt"
-          price={4.99}
-        ></Book>         */}
+    //     {/* <BookShop books={books}></BookShop> */}
 
-        {/* <ToDoList></ToDoList> */}
-        {/* <Counter1></Counter1> */}
-        {/* <TimerComponent1></TimerComponent1> */}
-        {/* <TimerComponent></TimerComponent> */}
-        {/* <Calculator></Calculator> */}
-        {/* <CounterClass></CounterClass> */}
-        {/* <Form8></Form8> */}
-        {/* <Form7></Form7> */}
-        {/* <Form6></Form6> */}
-        {/* <Form5></Form5> */}
-        {/* <Form4></Form4> */}
-        {/* <Form3></Form3> */}
-        {/* <Form2></Form2> */}
-        {/* <Form1></Form1> */}
+    //     {/* <Container className='w-100'>
+    //       <Row>
+    //         <Col lg={9}>
+    //           <BooksList books={books}></BooksList>
+              
+    //         </Col>
+    //         <Col lg={3}>
+    //           <BooksRequestForm></BooksRequestForm>
+    //         </Col>
+    //       </Row>
+    //     </Container> */}
+        
+    //     {/* <Book
+    //       image={imageBook1}
+    //       title="How To Analyze People"
+    //       description="Read People Like a Book with Dark Psychology Secrets, NLP Techniques, Body Language Analysis, Enhanced Emotional Intelligence, and Expert-Level Manipulation Skills"
+    //       author="Eric Holt"
+    //       price={4.99}
+    //     ></Book>         */}
 
-        {/* Test of commit from another device       */}
-        {/* <div className='city-containers'>
-        <ImagesCarousel cityInfo={odessaCityInfo}></ImagesCarousel>
-        <ImagesCarousel cityInfo={malagaCityInfo}></ImagesCarousel>
-        <ImagesCarousel cityInfo={cadizCityInfo}></ImagesCarousel>
-        </div>         */}
+    //     {/* <ToDoList></ToDoList> */}
+    //     {/* <Counter1></Counter1> */}
+    //     {/* <TimerComponent1></TimerComponent1> */}
+    //     {/* <TimerComponent></TimerComponent> */}
+    //     {/* <Calculator></Calculator> */}
+    //     {/* <CounterClass></CounterClass> */}
+    //     {/* <Form8></Form8> */}
+    //     {/* <Form7></Form7> */}
+    //     {/* <Form6></Form6> */}
+    //     {/* <Form5></Form5> */}
+    //     {/* <Form4></Form4> */}
+    //     {/* <Form3></Form3> */}
+    //     {/* <Form2></Form2> */}
+    //     {/* <Form1></Form1> */}
 
-        {/* <Slideshow></Slideshow> */}
+    //     {/* Test of commit from another device       */}
+    //     {/* <div className='city-containers'>
+    //     <ImagesCarousel cityInfo={odessaCityInfo}></ImagesCarousel>
+    //     <ImagesCarousel cityInfo={malagaCityInfo}></ImagesCarousel>
+    //     <ImagesCarousel cityInfo={cadizCityInfo}></ImagesCarousel>
+    //     </div>         */}
 
-        {/* <Counter></Counter> */}
+    //     {/* <Slideshow></Slideshow> */}
 
-        {/* <div className='avatar-main-body'>
-        <Avatar photo={userPhoto1} name="Ivan" position="Developer" twitter="https://twitter.com/ivan_dev" facebook="https://facebook.com/ivan_dev"></Avatar>
-        <Avatar photo={userPhoto2} name="Maria" position="Designer" twitter="https://twitter.com/maria_design" facebook="https://facebook.com/maria_design"></Avatar>
-        </div> */}
+    //     {/* <Counter></Counter> */}
 
-      </header>
-    </div>
+    //     {/* <div className='avatar-main-body'>
+    //     <Avatar photo={userPhoto1} name="Ivan" position="Developer" twitter="https://twitter.com/ivan_dev" facebook="https://facebook.com/ivan_dev"></Avatar>
+    //     <Avatar photo={userPhoto2} name="Maria" position="Designer" twitter="https://twitter.com/maria_design" facebook="https://facebook.com/maria_design"></Avatar>
+    //     </div> */}
+
+      
+    // //</div>
   );
 }
 
