@@ -1,10 +1,12 @@
 .avatar__container {
     text-align: center;
     width: 300px;
+    max-width: 300px;
     height: 350px;
-    margin: 10px;
-    border: 1px solid yellow;
+    margin: 10px auto;
+    border: 1px solid green;
     padding: 10px;
+    box-sizing: border-box;
   }
   
   .avatar__header {
@@ -13,8 +15,8 @@
   }
   
   .avatar__image{
-    width: 100px;
-    height: 100px;
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
     object-fit: cover;    
     /* width: 100px; */
@@ -35,10 +37,20 @@
 
   .avatar-main-body{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
   }
 
   @media (max-width: 768px) {
     .avatar-main-body{
       flex-direction: column;      
+      align-items: center;
+    }
+
+    .avatar__container {
+      width: 90%;
+      max-width: 400px;
     }
   }

@@ -116,19 +116,19 @@ function App() {
     population: 1025000,
     foundedYear: '1794',
     images: [      
-      { image: odessaImage2, caption: 'Photo 2' },
-      { image: odessaImage3, caption: 'Photo 3' },
-      { image: odessaImage4, caption: 'Photo 4' },
-      { image: odessaImage5, caption: 'Photo 5' },
-      { image: odessaImage6, caption: 'Photo 6' },
-      { image: odessaImage7, caption: 'Photo 7' },
-      { image: odessaImage8, caption: 'Photo 8' },
-      { image: odessaImage9, caption: 'Photo 9' },
-      { image: odessaImage10, caption: 'Photo 10' },
-      { image: odessaImage11, caption: 'Photo 11' },
-      { image: odessaImage12, caption: 'Photo 12' },
-      { image: odessaImage13, caption: 'Photo 13' },
-      { image: odessaImage14, caption: 'Photo 14' },
+      { image: odessaImage2, caption: '' },
+      { image: odessaImage3, caption: '' },
+      { image: odessaImage4, caption: '' },
+      { image: odessaImage5, caption: '' },
+      { image: odessaImage6, caption: '' },
+      { image: odessaImage7, caption: '' },
+      { image: odessaImage8, caption: '' },
+      { image: odessaImage9, caption: '' },
+      { image: odessaImage10, caption: '' },
+      { image: odessaImage11, caption: '' },
+      { image: odessaImage12, caption: '' },
+      { image: odessaImage13, caption: '' },
+      { image: odessaImage14, caption: '' },
     ]
   }
 
@@ -139,26 +139,26 @@ function App() {
     description: 'A dynamic port city on the Costa del Sol in Spain, celebrated for its sunny weather, cultural landmarks, and artistic heritage. Birthplace of Picasso and gateway to Andalusian charm.',population: 578400,
     foundedYear: '770 BC',
     images: [      
-      { image: malagaImage2, caption: 'Photo 2' },
-      { image: malagaImage3, caption: 'Photo 3' },
-      { image: malagaImage4, caption: 'Photo 4' },
-      { image: malagaImage5, caption: 'Photo 5' },
-      { image: malagaImage6, caption: 'Photo 6' },
-      { image: malagaImage7, caption: 'Photo 7' },
-      { image: malagaImage8, caption: 'Photo 8' },
-      { image: malagaImage9, caption: 'Photo 9' },
-      { image: malagaImage10, caption: 'Photo 10' },
-      { image: malagaImage11, caption: 'Photo 11' },
-      { image: malagaImage12, caption: 'Photo 12' },
-      { image: malagaImage13, caption: 'Photo 13' },
-      { image: malagaImage14, caption: 'Photo 14' },
-      { image: malagaImage15, caption: 'Photo 15' },
-      { image: malagaImage16, caption: 'Photo 16' },
-      { image: malagaImage17, caption: 'Photo 17' },
-      { image: malagaImage18, caption: 'Photo 18' },
-      { image: malagaImage19, caption: 'Photo 19' },
-      { image: malagaImage20, caption: 'Photo 20' },
-      { image: malagaImage21, caption: 'Photo 21' },
+      { image: malagaImage2, caption: '' },
+      { image: malagaImage3, caption: '' },
+      { image: malagaImage4, caption: '' },
+      { image: malagaImage5, caption: '' },
+      { image: malagaImage6, caption: '' },
+      { image: malagaImage7, caption: '' },
+      { image: malagaImage8, caption: '' },
+      { image: malagaImage9, caption: '' },
+      { image: malagaImage10, caption: '' },
+      { image: malagaImage11, caption: '' },
+      { image: malagaImage12, caption: '' },
+      { image: malagaImage13, caption: '' },
+      { image: malagaImage14, caption: '' },
+      { image: malagaImage15, caption: '' },
+      { image: malagaImage16, caption: '' },
+      { image: malagaImage17, caption: '' },
+      { image: malagaImage18, caption: '' },
+      { image: malagaImage19, caption: '' },
+      { image: malagaImage20, caption: '' },
+      { image: malagaImage21, caption: '' },
     ]
   }
 
@@ -170,28 +170,28 @@ function App() {
     population: 114200,
     foundedYear: '1104 BC',
     images: [      
-      { image: cadizImage2, caption: 'Photo 2' },
-      { image: cadizImage3, caption: 'Photo 3' },
-      { image: cadizImage4, caption: 'Photo 4' },
-      { image: cadizImage5, caption: 'Photo 5' },
-      { image: cadizImage6, caption: 'Photo 6' },
-      { image: cadizImage7, caption: 'Photo 7' },
-      { image: cadizImage8, caption: 'Photo 8' },
-      { image: cadizImage9, caption: 'Photo 9' },
-      { image: cadizImage10, caption: 'Photo 10' },
-      { image: cadizImage11, caption: 'Photo 11' },
-      { image: cadizImage12, caption: 'Photo 12' },
-      { image: cadizImage13, caption: 'Photo 13' },
-      { image: cadizImage14, caption: 'Photo 14' },
-      { image: cadizImage15, caption: 'Photo 15' },
-      { image: cadizImage16, caption: 'Photo 16' },
-      { image: cadizImage17, caption: 'Photo 17' },
-      { image: cadizImage18, caption: 'Photo 18' },
-      { image: cadizImage19, caption: 'Photo 19' },
-      { image: cadizImage20, caption: 'Photo 20' },
-      { image: cadizImage21, caption: 'Photo 21' },
-      { image: cadizImage22, caption: 'Photo 22' },
-      { image: cadizImage23, caption: 'Photo 23' },      
+      { image: cadizImage2, caption: '' },
+      { image: cadizImage3, caption: '' },
+      { image: cadizImage4, caption: '' },
+      { image: cadizImage5, caption: '' },
+      { image: cadizImage6, caption: '' },
+      { image: cadizImage7, caption: '' },
+      { image: cadizImage8, caption: '' },
+      { image: cadizImage9, caption: '' },
+      { image: cadizImage10, caption: '' },
+      { image: cadizImage11, caption: '' },
+      { image: cadizImage12, caption: '' },
+      { image: cadizImage13, caption: '' },
+      { image: cadizImage14, caption: '' },
+      { image: cadizImage15, caption: '' },
+      { image: cadizImage16, caption: '' },
+      { image: cadizImage17, caption: '' },
+      { image: cadizImage18, caption: '' },
+      { image: cadizImage19, caption: '' },
+      { image: cadizImage20, caption: '' },
+      { image: cadizImage21, caption: '' },
+      { image: cadizImage22, caption: '' },
+      { image: cadizImage23, caption: '' },      
     ]
   }
 
@@ -266,38 +266,38 @@ function App() {
   //////////////////////////////////////////////////////////////
   // Draught Survey Tests
 
-  const [fwdApparentPs, setFwdApparentPs] = useState('');
-  const [fwdApparentSs, setFwdApparentSs] = useState('');
+  // const [fwdApparentPs, setFwdApparentPs] = useState('');
+  // const [fwdApparentSs, setFwdApparentSs] = useState('');
 
-  const handleFwdApparentPs = (value) => {
-    setFwdApparentPs(value);
-  };
-  const handleFwdApparentSs = (value) => {
-    setFwdApparentSs(value);
-  };
+  // const handleFwdApparentPs = (value) => {
+  //   setFwdApparentPs(value);
+  // };
+  // const handleFwdApparentSs = (value) => {
+  //   setFwdApparentSs(value);
+  // };
 
   return (
-    <Container className='mt-3'>
+    // <Container className='mt-3'>
 
-      <DsFwd1Apparent
-        draughtDetailsPs="FWD PS"
-        draughtDetailsSs="FWD SS"
-        onReturnFwdApparentPs={handleFwdApparentPs}
-        onReturnFwdApparentSs={handleFwdApparentSs}
-      />      
+    //   <DsFwd1Apparent
+    //     draughtDetailsPs="FWD PS"
+    //     draughtDetailsSs="FWD SS"
+    //     onReturnFwdApparentPs={handleFwdApparentPs}
+    //     onReturnFwdApparentSs={handleFwdApparentSs}
+    //   />      
 
-      <DsFwd2Mean 
-        draughtMeanPosition="FWD MEAN"
-        apparentPs={fwdApparentPs} 
-        apparentSs={fwdApparentSs}
-      />
+    //   <DsFwd2Mean 
+    //     draughtMeanPosition="FWD MEAN"
+    //     apparentPs={fwdApparentPs} 
+    //     apparentSs={fwdApparentSs}
+    //   />
 
-      <TableCalculation/>
+    //   <TableCalculation/>
 
-      <TableCalculationMui/>
+    //   <TableCalculationMui/>
       
 
-    </Container>
+    // </Container>
 
     
 
@@ -305,58 +305,58 @@ function App() {
       
       
         
-    //     {/* <BookShop books={books}></BookShop> */}
+        //  <BookShop books={books}></BookShop>
 
-    //     {/* <Container className='w-100'>
-    //       <Row>
-    //         <Col lg={9}>
-    //           <BooksList books={books}></BooksList>
+        <Container className='w-100'>
+          <Row>
+            <Col lg={9}>
+              <BooksList books={books}></BooksList>
               
-    //         </Col>
-    //         <Col lg={3}>
-    //           <BooksRequestForm></BooksRequestForm>
-    //         </Col>
-    //       </Row>
-    //     </Container> */}
+            </Col>
+            <Col lg={3}>
+              <BooksRequestForm></BooksRequestForm>
+            </Col>
+          </Row>
+        </Container>
         
-    //     {/* <Book
-    //       image={imageBook1}
-    //       title="How To Analyze People"
-    //       description="Read People Like a Book with Dark Psychology Secrets, NLP Techniques, Body Language Analysis, Enhanced Emotional Intelligence, and Expert-Level Manipulation Skills"
-    //       author="Eric Holt"
-    //       price={4.99}
-    //     ></Book>         */}
+        // <Book
+        //   image={imageBook1}
+        //   title="How To Analyze People"
+        //   description="Read People Like a Book with Dark Psychology Secrets, NLP Techniques, Body Language Analysis, Enhanced Emotional Intelligence, and Expert-Level Manipulation Skills"
+        //   author="Eric Holt"
+        //   price={4.99}
+        // ></Book>
 
-    //     {/* <ToDoList></ToDoList> */}
-    //     {/* <Counter1></Counter1> */}
-    //     {/* <TimerComponent1></TimerComponent1> */}
-    //     {/* <TimerComponent></TimerComponent> */}
-    //     {/* <Calculator></Calculator> */}
-    //     {/* <CounterClass></CounterClass> */}
-    //     {/* <Form8></Form8> */}
-    //     {/* <Form7></Form7> */}
-    //     {/* <Form6></Form6> */}
-    //     {/* <Form5></Form5> */}
-    //     {/* <Form4></Form4> */}
-    //     {/* <Form3></Form3> */}
-    //     {/* <Form2></Form2> */}
-    //     {/* <Form1></Form1> */}
+        //  <ToDoList></ToDoList>
+         //<Counter1></Counter1>
+         //<TimerComponent1></TimerComponent1>
+         //<TimerComponent></TimerComponent>
+         //<Calculator></Calculator>
+        //  <CounterClass></CounterClass>
+         //<Form8></Form8>
+         //<Form7></Form7>
+          //<Form6></Form6>
+         //<Form5></Form5>
+    //    <Form4></Form4>
+    //    <Form3></Form3>
+    //    <Form2></Form2>
+    //    <Form1></Form1>
 
     //     {/* Test of commit from another device       */}
-    //     {/* <div className='city-containers'>
-    //     <ImagesCarousel cityInfo={odessaCityInfo}></ImagesCarousel>
-    //     <ImagesCarousel cityInfo={malagaCityInfo}></ImagesCarousel>
-    //     <ImagesCarousel cityInfo={cadizCityInfo}></ImagesCarousel>
-    //     </div>         */}
+        // <div className='city-containers'>
+        // <ImagesCarousel cityInfo={odessaCityInfo}></ImagesCarousel>
+        // <ImagesCarousel cityInfo={malagaCityInfo}></ImagesCarousel>
+        // <ImagesCarousel cityInfo={cadizCityInfo}></ImagesCarousel>
+        // </div>
 
-    //     {/* <Slideshow></Slideshow> */}
+    // <Slideshow></Slideshow>
 
     //     {/* <Counter></Counter> */}
 
-    //     {/* <div className='avatar-main-body'>
-    //     <Avatar photo={userPhoto1} name="Ivan" position="Developer" twitter="https://twitter.com/ivan_dev" facebook="https://facebook.com/ivan_dev"></Avatar>
-    //     <Avatar photo={userPhoto2} name="Maria" position="Designer" twitter="https://twitter.com/maria_design" facebook="https://facebook.com/maria_design"></Avatar>
-    //     </div> */}
+        //  <div className='avatar-main-body'>
+        //  <Avatar photo={userPhoto1} name="Ivan" position="Developer" twitter="https://twitter.com/ivan_dev" facebook="https://facebook.com/ivan_dev"></Avatar>
+        //  <Avatar photo={userPhoto2} name="Maria" position="Designer" twitter="https://twitter.com/maria_design" facebook="https://facebook.com/maria_design"></Avatar>
+        //  </div>
 
       
     // //</div>

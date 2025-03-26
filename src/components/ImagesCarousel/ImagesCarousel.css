@@ -1,8 +1,9 @@
 .city-container {    
     text-align: center;
+    width: 100%;
     max-width: 320px;
     margin: 10px;
-    border: 1px solid yellow;
+    border: 1px solid green;
     padding: 5px;    
 }
 
@@ -30,6 +31,11 @@
 
 @media (max-width: 768px) {
     .city-containers{
-      flex-direction: column;      
+      flex-direction: column;
+      align-items: center;
+    }
+    .city-container{
+        width: 95% !important;
+        max-width: none;
     }
   }
