@@ -2,7 +2,7 @@
   "name": "app-hw-2024-12-21-1325",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://p.zalizko.site/react-projects/4-city-carousel",
+  "homepage": "http://p.zalizko.site/react-projects/5-book-shop",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",

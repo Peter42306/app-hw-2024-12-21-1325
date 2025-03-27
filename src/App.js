@@ -7,82 +7,82 @@ import Avatar from './components/Avatar/Avatar';
 import userPhoto1 from '../src/images/Screenshot_2024-11-15_161150.jpg';
 import userPhoto2 from '../src/images/Screenshot_2024-11-15_162111.jpg';
 import Slideshow from './components/Slideshow/Slideshow';
-import odessaImage1 from './images/Odessa_Screenshot 2024-12-21 230706.jpg';
-import odessaImage2 from './images/Odessa_Screenshot 2024-12-21 230731.jpg'; 
-import odessaImage3 from './images/Odessa_Screenshot 2024-12-21 230732.jpg';
-import odessaImage4 from './images/Odessa_Screenshot 2024-12-21 230800.jpg';
-import odessaImage5 from './images/Odessa_Screenshot 2024-12-21 233256.jpg';
-import odessaImage6 from './images/Odessa_Screenshot 2024-12-21 233309.jpg';
-import odessaImage7 from './images/Odessa_Screenshot 2024-12-21 233323.jpg';
-import odessaImage8 from './images/Odessa_Screenshot 2024-12-21 233337.jpg';
-import odessaImage9 from './images/Odessa_Screenshot 2024-12-21 233428.jpg';
-import odessaImage10 from './images/Odessa_Screenshot 2024-12-21 233447.jpg';
-import odessaImage11 from './images/Odessa_Screenshot 2024-12-21 233506.jpg';
-import odessaImage12 from './images/Odessa_Screenshot 2024-12-21 233520.jpg';
-import odessaImage13 from './images/Odessa_Screenshot 2024-12-21 233551.jpg';
-import odessaImage14 from './images/Odessa_Screenshot 2024-12-21 233620.jpg';
-import malagaImage1 from './images/malaga_photo_2024-12-22_10-49-45.jpg';
-import malagaImage2 from './images/malaga_photo_2024-12-22_10-49-46.jpg';
-import malagaImage3 from './images/malaga_photo_2024-12-22_10-50-01.jpg';
-import malagaImage4 from './images/malaga_photo_2024-12-22_10-50-02.jpg';
-import malagaImage5 from './images/malaga_photo_2024-12-22_10-50-07.jpg';
-import malagaImage6 from './images/malaga_photo_2024-12-22_10-50-12.jpg';
-import malagaImage7 from './images/malaga_photo_2024-12-22_10-50-13.jpg';
-import malagaImage8 from './images/malaga_photo_2024-12-22_10-50-14.jpg';
-import malagaImage9 from './images/malaga_photo_2024-12-22_10-50-16.jpg';
-import malagaImage10 from './images/malaga_photo_2024-12-22_10-50-18.jpg';
-import malagaImage11 from './images/malaga_photo_2024-12-22_10-50-19.jpg';
-import malagaImage12 from './images/malaga_photo_2024-12-22_10-50-21.jpg';
-import malagaImage13 from './images/malaga_photo_2024-12-22_10-50-22.jpg';
-import malagaImage14 from './images/malaga_photo_2024-12-22_10-50-24.jpg';
-import malagaImage15 from './images/malaga_photo_2024-12-22_10-50-25.jpg';
-import malagaImage16 from './images/malaga_photo_2024-12-22_10-50-26.jpg';
-import malagaImage17 from './images/malaga_photo_2024-12-22_10-50-27.jpg';
-import malagaImage18 from './images/malaga_photo_2024-12-22_10-50-29.jpg';
-import malagaImage19 from './images/malaga_photo_2024-12-22_10-50-30.jpg';
-import malagaImage20 from './images/malaga_photo_2024-12-22_10-50-31.jpg';
-import malagaImage21 from './images/malaga_photo_2024-12-22_10-50-33.jpg';
-import cadizImage1 from './images/cadiz_photo_2024-12-22_11-20-15.jpg';
-import cadizImage2 from './images/cadiz_photo_2024-12-22_11-20-16.jpg';
-import cadizImage3 from './images/cadiz_photo_2024-12-22_11-20-20.jpg';
-import cadizImage4 from './images/cadiz_photo_2024-12-22_11-20-22.jpg';
-import cadizImage5 from './images/cadiz_photo_2024-12-22_11-20-25.jpg';
-import cadizImage6 from './images/cadiz_photo_2024-12-22_11-20-30.jpg';
-import cadizImage7 from './images/cadiz_photo_2024-12-22_11-20-32.jpg';
-import cadizImage8 from './images/cadiz_photo_2024-12-22_11-20-33.jpg';
-import cadizImage9 from './images/cadiz_photo_2024-12-22_11-20-34.jpg';
-import cadizImage10 from './images/cadiz_photo_2024-12-22_11-20-35.jpg';
-import cadizImage11 from './images/cadiz_photo_2024-12-22_11-20-36.jpg';
-import cadizImage12 from './images/cadiz_photo_2024-12-22_11-20-37.jpg';
-import cadizImage13 from './images/cadiz_photo_2024-12-22_11-20-38.jpg';
-import cadizImage14 from './images/cadiz_photo_2024-12-22_11-20-39.jpg';
-import cadizImage15 from './images/cadiz_photo_2024-12-22_11-20-40.jpg';
-import cadizImage16 from './images/cadiz_photo_2024-12-22_11-20-41.jpg';
-import cadizImage17 from './images/cadiz_photo_2024-12-22_11-26-41.jpg';
-import cadizImage18 from './images/cadiz_photo_2024-12-22_11-26-43.jpg';
-import cadizImage19 from './images/cadiz_photo_2024-12-22_11-26-47.jpg';
-import cadizImage20 from './images/cadiz_photo_2024-12-22_11-26-51.jpg';
-import cadizImage21 from './images/cadiz_photo_2024-12-22_11-26-52.jpg';
-import cadizImage22 from './images/cadiz_photo_2024-12-22_11-26-53.jpg';
-import cadizImage23 from './images/cadiz_photo_2024-12-22_11-20-31.jpg';
-import ImagesCarousel from './components/ImagesCarousel/ImagesCarousel';
-import HelloMessage from './components/HelloMessage/HelloMessage';
-import Form1 from './components/Form1/Form1';
-import Form2 from './components/Form2/Form2';
-import Form3 from './components/Form3/Form3';
-import Form4 from './components/Form4/Form4';
-import Form5 from './components/Form5/Form5';
-import Form6 from './components/Form6/Form6';
-import Form7 from './components/Form7/Form7';
-import Form8 from './components/Form8/Form8';
-import CounterClass from './components/CounterClass/CounterClass';
-import Calculator from './components/Calculator/Calculator';
-import TimerComponent from './components/TimerComponent/TimerComponent';
-import TimerComponent1 from './components/TimerComponent1/TimerComponent1';
-import Counter1 from './components/Counter1/Counter1';
-import ToDoList from './components/ToDoList/ToDoList';
-import Book from './components/Book/Book';
-import BooksList from './components/BooksList/BooksList';
+// import odessaImage1 from './images/Odessa_Screenshot 2024-12-21 230706.jpg';
+// import odessaImage2 from './images/Odessa_Screenshot 2024-12-21 230731.jpg'; 
+// import odessaImage3 from './images/Odessa_Screenshot 2024-12-21 230732.jpg';
+// import odessaImage4 from './images/Odessa_Screenshot 2024-12-21 230800.jpg';
+// import odessaImage5 from './images/Odessa_Screenshot 2024-12-21 233256.jpg';
+// import odessaImage6 from './images/Odessa_Screenshot 2024-12-21 233309.jpg';
+// import odessaImage7 from './images/Odessa_Screenshot 2024-12-21 233323.jpg';
+// import odessaImage8 from './images/Odessa_Screenshot 2024-12-21 233337.jpg';
+// import odessaImage9 from './images/Odessa_Screenshot 2024-12-21 233428.jpg';
+// import odessaImage10 from './images/Odessa_Screenshot 2024-12-21 233447.jpg';
+// import odessaImage11 from './images/Odessa_Screenshot 2024-12-21 233506.jpg';
+// import odessaImage12 from './images/Odessa_Screenshot 2024-12-21 233520.jpg';
+// import odessaImage13 from './images/Odessa_Screenshot 2024-12-21 233551.jpg';
+// import odessaImage14 from './images/Odessa_Screenshot 2024-12-21 233620.jpg';
+// import malagaImage1 from './images/malaga_photo_2024-12-22_10-49-45.jpg';
+// import malagaImage2 from './images/malaga_photo_2024-12-22_10-49-46.jpg';
+// import malagaImage3 from './images/malaga_photo_2024-12-22_10-50-01.jpg';
+// import malagaImage4 from './images/malaga_photo_2024-12-22_10-50-02.jpg';
+// import malagaImage5 from './images/malaga_photo_2024-12-22_10-50-07.jpg';
+// import malagaImage6 from './images/malaga_photo_2024-12-22_10-50-12.jpg';
+// import malagaImage7 from './images/malaga_photo_2024-12-22_10-50-13.jpg';
+// import malagaImage8 from './images/malaga_photo_2024-12-22_10-50-14.jpg';
+// import malagaImage9 from './images/malaga_photo_2024-12-22_10-50-16.jpg';
+// import malagaImage10 from './images/malaga_photo_2024-12-22_10-50-18.jpg';
+// import malagaImage11 from './images/malaga_photo_2024-12-22_10-50-19.jpg';
+// import malagaImage12 from './images/malaga_photo_2024-12-22_10-50-21.jpg';
+// import malagaImage13 from './images/malaga_photo_2024-12-22_10-50-22.jpg';
+// import malagaImage14 from './images/malaga_photo_2024-12-22_10-50-24.jpg';
+// import malagaImage15 from './images/malaga_photo_2024-12-22_10-50-25.jpg';
+// import malagaImage16 from './images/malaga_photo_2024-12-22_10-50-26.jpg';
+// import malagaImage17 from './images/malaga_photo_2024-12-22_10-50-27.jpg';
+// import malagaImage18 from './images/malaga_photo_2024-12-22_10-50-29.jpg';
+// import malagaImage19 from './images/malaga_photo_2024-12-22_10-50-30.jpg';
+// import malagaImage20 from './images/malaga_photo_2024-12-22_10-50-31.jpg';
+// import malagaImage21 from './images/malaga_photo_2024-12-22_10-50-33.jpg';
+// import cadizImage1 from './images/cadiz_photo_2024-12-22_11-20-15.jpg';
+// import cadizImage2 from './images/cadiz_photo_2024-12-22_11-20-16.jpg';
+// import cadizImage3 from './images/cadiz_photo_2024-12-22_11-20-20.jpg';
+// import cadizImage4 from './images/cadiz_photo_2024-12-22_11-20-22.jpg';
+// import cadizImage5 from './images/cadiz_photo_2024-12-22_11-20-25.jpg';
+// import cadizImage6 from './images/cadiz_photo_2024-12-22_11-20-30.jpg';
+// import cadizImage7 from './images/cadiz_photo_2024-12-22_11-20-32.jpg';
+// import cadizImage8 from './images/cadiz_photo_2024-12-22_11-20-33.jpg';
+// import cadizImage9 from './images/cadiz_photo_2024-12-22_11-20-34.jpg';
+// import cadizImage10 from './images/cadiz_photo_2024-12-22_11-20-35.jpg';
+// import cadizImage11 from './images/cadiz_photo_2024-12-22_11-20-36.jpg';
+// import cadizImage12 from './images/cadiz_photo_2024-12-22_11-20-37.jpg';
+// import cadizImage13 from './images/cadiz_photo_2024-12-22_11-20-38.jpg';
+// import cadizImage14 from './images/cadiz_photo_2024-12-22_11-20-39.jpg';
+// import cadizImage15 from './images/cadiz_photo_2024-12-22_11-20-40.jpg';
+// import cadizImage16 from './images/cadiz_photo_2024-12-22_11-20-41.jpg';
+// import cadizImage17 from './images/cadiz_photo_2024-12-22_11-26-41.jpg';
+// import cadizImage18 from './images/cadiz_photo_2024-12-22_11-26-43.jpg';
+// import cadizImage19 from './images/cadiz_photo_2024-12-22_11-26-47.jpg';
+// import cadizImage20 from './images/cadiz_photo_2024-12-22_11-26-51.jpg';
+// import cadizImage21 from './images/cadiz_photo_2024-12-22_11-26-52.jpg';
+// import cadizImage22 from './images/cadiz_photo_2024-12-22_11-26-53.jpg';
+// import cadizImage23 from './images/cadiz_photo_2024-12-22_11-20-31.jpg';
+// import ImagesCarousel from './components/ImagesCarousel/ImagesCarousel';
+// import HelloMessage from './components/HelloMessage/HelloMessage';
+// import Form1 from './components/Form1/Form1';
+// import Form2 from './components/Form2/Form2';
+// import Form3 from './components/Form3/Form3';
+// import Form4 from './components/Form4/Form4';
+// import Form5 from './components/Form5/Form5';
+// import Form6 from './components/Form6/Form6';
+// import Form7 from './components/Form7/Form7';
+// import Form8 from './components/Form8/Form8';
+// import CounterClass from './components/CounterClass/CounterClass';
+// import Calculator from './components/Calculator/Calculator';
+// import TimerComponent from './components/TimerComponent/TimerComponent';
+// import TimerComponent1 from './components/TimerComponent1/TimerComponent1';
+// import Counter1 from './components/Counter1/Counter1';
+// import ToDoList from './components/ToDoList/ToDoList';
+// import Book from './components/Book/Book';
+// import BooksList from './components/BooksList/BooksList';
 import imageBook1 from './images/books-1-Screenshot-2024-12-28-234628-Richter.jpg'
 import imageBook2 from './images/books-2-Screenshot-2024-12-28-234531-Troelsen.jpg'
 import imageBook3 from './images/books-3-Screenshot-2024-12-28-234802-Martin-Clean.jpg'
@@ -107,93 +107,93 @@ import TableCalculationMui from './components/TableCalculationMui/TableCalculati
 function App() { 
   
 
-  // Cities
-  const odessaCityInfo = {
-    mainImage: odessaImage1,
-    city: 'Odessa',
-    country: 'Ukraine',
-    description: 'A beautiful port city on the Black Sea, known for its beaches and historic architecture. Known as the "Pearl of the Black Sea."',
-    population: 1025000,
-    foundedYear: '1794',
-    images: [      
-      { image: odessaImage2, caption: '' },
-      { image: odessaImage3, caption: '' },
-      { image: odessaImage4, caption: '' },
-      { image: odessaImage5, caption: '' },
-      { image: odessaImage6, caption: '' },
-      { image: odessaImage7, caption: '' },
-      { image: odessaImage8, caption: '' },
-      { image: odessaImage9, caption: '' },
-      { image: odessaImage10, caption: '' },
-      { image: odessaImage11, caption: '' },
-      { image: odessaImage12, caption: '' },
-      { image: odessaImage13, caption: '' },
-      { image: odessaImage14, caption: '' },
-    ]
-  }
+  // // Cities
+  // const odessaCityInfo = {
+  //   mainImage: odessaImage1,
+  //   city: 'Odessa',
+  //   country: 'Ukraine',
+  //   description: 'A beautiful port city on the Black Sea, known for its beaches and historic architecture. Known as the "Pearl of the Black Sea."',
+  //   population: 1025000,
+  //   foundedYear: '1794',
+  //   images: [      
+  //     { image: odessaImage2, caption: '' },
+  //     { image: odessaImage3, caption: '' },
+  //     { image: odessaImage4, caption: '' },
+  //     { image: odessaImage5, caption: '' },
+  //     { image: odessaImage6, caption: '' },
+  //     { image: odessaImage7, caption: '' },
+  //     { image: odessaImage8, caption: '' },
+  //     { image: odessaImage9, caption: '' },
+  //     { image: odessaImage10, caption: '' },
+  //     { image: odessaImage11, caption: '' },
+  //     { image: odessaImage12, caption: '' },
+  //     { image: odessaImage13, caption: '' },
+  //     { image: odessaImage14, caption: '' },
+  //   ]
+  // }
 
-  const malagaCityInfo = {
-    mainImage: malagaImage1,
-    city: 'Malaga',
-    country: 'Spain',
-    description: 'A dynamic port city on the Costa del Sol in Spain, celebrated for its sunny weather, cultural landmarks, and artistic heritage. Birthplace of Picasso and gateway to Andalusian charm.',population: 578400,
-    foundedYear: '770 BC',
-    images: [      
-      { image: malagaImage2, caption: '' },
-      { image: malagaImage3, caption: '' },
-      { image: malagaImage4, caption: '' },
-      { image: malagaImage5, caption: '' },
-      { image: malagaImage6, caption: '' },
-      { image: malagaImage7, caption: '' },
-      { image: malagaImage8, caption: '' },
-      { image: malagaImage9, caption: '' },
-      { image: malagaImage10, caption: '' },
-      { image: malagaImage11, caption: '' },
-      { image: malagaImage12, caption: '' },
-      { image: malagaImage13, caption: '' },
-      { image: malagaImage14, caption: '' },
-      { image: malagaImage15, caption: '' },
-      { image: malagaImage16, caption: '' },
-      { image: malagaImage17, caption: '' },
-      { image: malagaImage18, caption: '' },
-      { image: malagaImage19, caption: '' },
-      { image: malagaImage20, caption: '' },
-      { image: malagaImage21, caption: '' },
-    ]
-  }
+  // const malagaCityInfo = {
+  //   mainImage: malagaImage1,
+  //   city: 'Malaga',
+  //   country: 'Spain',
+  //   description: 'A dynamic port city on the Costa del Sol in Spain, celebrated for its sunny weather, cultural landmarks, and artistic heritage. Birthplace of Picasso and gateway to Andalusian charm.',population: 578400,
+  //   foundedYear: '770 BC',
+  //   images: [      
+  //     { image: malagaImage2, caption: '' },
+  //     { image: malagaImage3, caption: '' },
+  //     { image: malagaImage4, caption: '' },
+  //     { image: malagaImage5, caption: '' },
+  //     { image: malagaImage6, caption: '' },
+  //     { image: malagaImage7, caption: '' },
+  //     { image: malagaImage8, caption: '' },
+  //     { image: malagaImage9, caption: '' },
+  //     { image: malagaImage10, caption: '' },
+  //     { image: malagaImage11, caption: '' },
+  //     { image: malagaImage12, caption: '' },
+  //     { image: malagaImage13, caption: '' },
+  //     { image: malagaImage14, caption: '' },
+  //     { image: malagaImage15, caption: '' },
+  //     { image: malagaImage16, caption: '' },
+  //     { image: malagaImage17, caption: '' },
+  //     { image: malagaImage18, caption: '' },
+  //     { image: malagaImage19, caption: '' },
+  //     { image: malagaImage20, caption: '' },
+  //     { image: malagaImage21, caption: '' },
+  //   ]
+  // }
 
-  const cadizCityInfo = {
-    mainImage: cadizImage1,
-    city: 'Cadiz',
-    country: 'Spain',
-    description: 'A historic port city in southwestern Spain, known for its ancient history, beautiful beaches, and vibrant culture. It is considered one of the oldest continuously inhabited cities in Western Europe.',
-    population: 114200,
-    foundedYear: '1104 BC',
-    images: [      
-      { image: cadizImage2, caption: '' },
-      { image: cadizImage3, caption: '' },
-      { image: cadizImage4, caption: '' },
-      { image: cadizImage5, caption: '' },
-      { image: cadizImage6, caption: '' },
-      { image: cadizImage7, caption: '' },
-      { image: cadizImage8, caption: '' },
-      { image: cadizImage9, caption: '' },
-      { image: cadizImage10, caption: '' },
-      { image: cadizImage11, caption: '' },
-      { image: cadizImage12, caption: '' },
-      { image: cadizImage13, caption: '' },
-      { image: cadizImage14, caption: '' },
-      { image: cadizImage15, caption: '' },
-      { image: cadizImage16, caption: '' },
-      { image: cadizImage17, caption: '' },
-      { image: cadizImage18, caption: '' },
-      { image: cadizImage19, caption: '' },
-      { image: cadizImage20, caption: '' },
-      { image: cadizImage21, caption: '' },
-      { image: cadizImage22, caption: '' },
-      { image: cadizImage23, caption: '' },      
-    ]
-  }
+  // const cadizCityInfo = {
+  //   mainImage: cadizImage1,
+  //   city: 'Cadiz',
+  //   country: 'Spain',
+  //   description: 'A historic port city in southwestern Spain, known for its ancient history, beautiful beaches, and vibrant culture. It is considered one of the oldest continuously inhabited cities in Western Europe.',
+  //   population: 114200,
+  //   foundedYear: '1104 BC',
+  //   images: [      
+  //     { image: cadizImage2, caption: '' },
+  //     { image: cadizImage3, caption: '' },
+  //     { image: cadizImage4, caption: '' },
+  //     { image: cadizImage5, caption: '' },
+  //     { image: cadizImage6, caption: '' },
+  //     { image: cadizImage7, caption: '' },
+  //     { image: cadizImage8, caption: '' },
+  //     { image: cadizImage9, caption: '' },
+  //     { image: cadizImage10, caption: '' },
+  //     { image: cadizImage11, caption: '' },
+  //     { image: cadizImage12, caption: '' },
+  //     { image: cadizImage13, caption: '' },
+  //     { image: cadizImage14, caption: '' },
+  //     { image: cadizImage15, caption: '' },
+  //     { image: cadizImage16, caption: '' },
+  //     { image: cadizImage17, caption: '' },
+  //     { image: cadizImage18, caption: '' },
+  //     { image: cadizImage19, caption: '' },
+  //     { image: cadizImage20, caption: '' },
+  //     { image: cadizImage21, caption: '' },
+  //     { image: cadizImage22, caption: '' },
+  //     { image: cadizImage23, caption: '' },      
+  //   ]
+  // }
 
   const books = [
     {
@@ -305,19 +305,19 @@ function App() {
       
       
         
-        //  <BookShop books={books}></BookShop>
+          <BookShop books={books}></BookShop>
 
-        <Container className='w-100'>
-          <Row>
-            <Col lg={9}>
-              <BooksList books={books}></BooksList>
+        // {/*<Container className='w-100'>
+        //   <Row>
+        //     <Col lg={9}>
+        //       <BooksList books={books}></BooksList>
               
-            </Col>
-            <Col lg={3}>
-              <BooksRequestForm></BooksRequestForm>
-            </Col>
-          </Row>
-        </Container>
+        //     </Col>
+        //     <Col lg={3}>
+        //       <BooksRequestForm></BooksRequestForm>
+        //     </Col>
+        //   </Row>
+        // </Container>*/}
         
         // <Book
         //   image={imageBook1}
