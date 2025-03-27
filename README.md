@@ -1,3 +1,7 @@
+Book Shop (component BookShop)
+
+![image](https://github.com/user-attachments/assets/dd1dca85-f0e8-4a29-8977-ee90da43ef16)
+
 Simple calculator (component Calculator)
 
 ![image](https://github.com/user-attachments/assets/6425baaa-78cb-4dae-ab1e-1c1c7c119cfe)
